@@ -509,8 +509,7 @@ ul.about
   border-top: none;
 }
 
-@media only screen and (max-width: 700px){
-    .music {
-        width: 80%;
-    }
+audio.music
+{
+    width:100%;
 }
