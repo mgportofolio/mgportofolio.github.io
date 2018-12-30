@@ -512,4 +512,5 @@ ul.about
 audio.music
 {
     width:100%;
+    max-width: 700px;
 }
