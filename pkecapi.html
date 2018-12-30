@@ -62,13 +62,14 @@
 			</div>
 			
 			<div class="tab">
-  					<button class="tablinks" onclick="openCity(event, '26des')">26 Desember 2018</button>
+  					<button class="tablinks" onclick="openCity(event, '26des')" id="defaultOpen">26 Desember 2018</button>
   					<button class="tablinks" onclick="openCity(event, '27des')">27 Desember 2018</button>
   					<button class="tablinks" onclick="openCity(event, '28des')">28 Desember 2018</button>
 			</div>
 			
-			<div id="26des" class="tabcontent">
+			<div id="26des" class="tabcontent" >
 			<div class="row row-padding text-center">
+				<h6>26 Desember 2018</h6>
 				<div class="col-md-12 tech-margin">
 					<h5>Pengajaran Kelas - Destiny</h5>
 					<p>Ev.Steve A & Hana Cherry</p>
@@ -100,6 +101,7 @@
 
 			<div id="27des" class="tabcontent">
 			<div class="row row-padding text-center">
+				<h6>27 Desember 2018</h6>
 				<div class="col-md-12 tech-margin">
 					<h5>Pengajaran Kelas - Destiny</h5>
 					<p>Ev.Steve A & Hana Cherry</p>
@@ -113,6 +115,7 @@
 
 			<div id="28des" class="tabcontent">
 			<div class="row row-padding text-center">
+				<h6>28 Desember 2018</h6>
 				<div class="col-md-12 tech-margin">
 					<h5>Pengajaran Kelas - Destiny</h5>
 					<p>Ev.Steve A & Hana Cherry</p>
@@ -151,6 +154,7 @@
 	</div>
 		
 <script>
+	document.getElementById("defaultOpen").click();
 	function openCity(evt, cityName) {
 	  var i, tabcontent, tablinks;
 	  tabcontent = document.getElementsByClassName("tabcontent");
