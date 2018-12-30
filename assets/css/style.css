@@ -510,7 +510,7 @@ ul.about
 }
 
 @media only screen and (max-width: 700px){
-    .tabcontent {
+    .music {
         width: 80%;
     }
 }
