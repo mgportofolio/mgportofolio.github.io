@@ -514,3 +514,11 @@ audio
     width:100%;
     max-width: 700px;
 }
+
+@media (max-width: 720px) {
+    .tablinks
+    {
+        display: inline-block;
+        width: 100%;
+    }
+}
